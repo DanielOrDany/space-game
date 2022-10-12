@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("icons/space.jpg");
+}
+
+#canvas1 {
+    background: black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#start_game {
+    width: 250px;
+    height: 50px;
+    background-color: #f5e617;
+    color: black;
+    font-family: 'Cambria', 'sans-serif';
+    border: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#start_game:hover {
+    cursor: pointer;
+    background-color: #d2c415;
+    transition: .2s;
+}
+
+
+#reload_game {
+    width: 250px;
+    height: 50px;
+    background-color: #f5e617;
+    color: black;
+    font-family: 'Cambria', 'sans-serif';
+    border: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#reload_game:hover {
+    cursor: pointer;
+    background-color: #d2c415;
+    transition: .2s;
+}
+
+
+#player_img {
+    display: none;
+}
+
+#player1_img_avatar {
+    display: none;
+}
+
+#player2_img_avatar {
+    display: none;
+}
+
+#layer {
+    display: none;
+}
+
+#fire {
+    display: none;
+}

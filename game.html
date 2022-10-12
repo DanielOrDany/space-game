@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <canvas id="canvas1" style="display: block"></canvas>
+
+    <!-- players -->
+    <img id="player_img" src="icons/rocket.png" alt="rocket">
+    <img id="player1_img_avatar" src="icons/men.png" alt="avatar">
+    <img id="player2_img_avatar" src="icons/women.png" alt="avatar">
+
+    <!-- start button -->
+    <div class="buttons">
+        <button id="start_game" onclick="start_game = true">Start Game</button>
+        <button id="reload_game" onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <!-- environment -->
+    <img id="layer" src="icons/game_rocket_bg_v2.png" alt="background">
+    <img id="fire" src="icons/fire.png" alt="fire">
+
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
